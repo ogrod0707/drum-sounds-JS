@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+   
+}
+html{
+    margin: 0;
+    padding: 0;
+    background-color: gray;;
+}
+.container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 90%;
+    height: 12%;
+
+}
+.box{
+    width: 6%;
+    border: 2px solid black;
+    background-color: white;
+    background-color:rgba(0, 0, 0, 0.3);
+}
+.letter{
+   display: flex;
+   justify-content: center;
+    margin-top: 25%;
+    margin-bottom: 4%;
+    color: white;
+    font-size: 25px;
+}
+.sound{
+    display: flex;
+   justify-content: center;
+   color: goldenrod;
+}
+
